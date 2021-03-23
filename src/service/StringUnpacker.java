@@ -66,7 +66,6 @@ public class StringUnpacker {
     /**
      * Method responsible for providing any Bound, a corresponding multiplier is moved hear from Bound class
      * for easy access to the main string data.
-     *
      * @param bound bound for finding multiplier
      * @param main  char arr value of main string
      * @return int value (does not assign it to the bound)

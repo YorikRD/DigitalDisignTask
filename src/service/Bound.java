@@ -2,7 +2,7 @@ package service;
 
 /**
  * Class responsible for storing information of single pair of brackets
- * and corresponding multiplier. does not store any actual chars or strings for saving memory
+ * and corresponding multiplier. does not store any actual chars or strings
  */
 public class Bound implements Comparable {
     private int from;
@@ -10,7 +10,7 @@ public class Bound implements Comparable {
     private int multiplier = 1;
 
     /**
-     * Method called for checking if character under thise index belongs to thei bound
+     * Method called for checking if character under this index belongs to the bound
      * @param index int number of char in string
      * @return boolean
      */
